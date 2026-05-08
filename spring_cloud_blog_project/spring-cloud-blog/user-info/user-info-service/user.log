@@ -1,0 +1,181 @@
+2025-10-10T11:35:46.195+08:00  WARN 5052 --- [main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-10T11:35:46.214+08:00  INFO 5052 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-10-10T11:35:46.224+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0
+2025-10-10T11:35:46.255+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$799/0x00000234203f7608
+2025-10-10T11:35:46.270+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$800/0x00000234203f7a28
+2025-10-10T11:35:46.272+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-10T11:35:46.272+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-10T11:35:46.272+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-10T11:35:46.327+08:00  INFO 5052 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-10T11:35:47.230+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1760067347031_127.0.0.1_52502
+2025-10-10T11:35:47.231+08:00  INFO 5052 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Notify connected event to listeners.
+2025-10-10T11:35:47.231+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-10T11:35:47.231+08:00  INFO 5052 --- [com.alibaba.nacos.client.remote.worker] c.a.n.client.config.impl.ClientWorker    : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Connected,notify listen context...
+2025-10-10T11:35:47.231+08:00  INFO 5052 --- [main] com.alibaba.nacos.common.remote.client   : [be57e876-9f07-4f24-a1ac-7bf9dc22c9ea_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$821/0x000002342053ea20
+2025-10-10T11:35:47.262+08:00  INFO 5052 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2025-10-10T11:35:47.262+08:00  WARN 5052 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[user-service] & group[DEFAULT_GROUP]
+2025-10-10T11:35:47.282+08:00  WARN 5052 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[user-service.properties] & group[DEFAULT_GROUP]
+2025-10-10T11:35:47.283+08:00  INFO 5052 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-user-service.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-user-service,DEFAULT_GROUP'}]
+2025-10-10T11:35:47.313+08:00  WARN 5052 --- [main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-10T11:35:47.321+08:00  INFO 5052 --- [main] com.xiaoli.user.MailTest                 : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T11:35:47.898+08:00  INFO 5052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10T11:35:47.913+08:00  INFO 5052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10T11:35:47.933+08:00  INFO 5052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2025-10-10T11:35:48.182+08:00  INFO 5052 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=caa58da5-782a-3cde-a760-a572c3df3fb2
+2025-10-10T11:35:49.097+08:00  INFO 5052 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'blog-service' URL not provided. Will try picking an instance via load-balancing.
+2025-10-10T11:35:51.402+08:00  WARN 5052 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T11:35:51.435+08:00  INFO 5052 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [47.105.69.137:5672]
+2025-10-10T11:35:51.617+08:00  INFO 5052 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1f365a26:0/SimpleConnection@74e1d60b [delegate=amqp://xiaoli@47.105.69.137:5672/blog, localPort=52509]
+2025-10-10T11:35:52.239+08:00  INFO 5052 --- [main] com.xiaoli.user.MailTest                 : Started MailTest in 7.642 seconds (process running for 8.932)
+2025-10-10T11:35:52.239+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 收到用户信息，body{"email":"1138358816@qq.com","githubUrl":"https://gitee.com/petty-thiefFFF/clanguage.git","id":7,"password":"","userName":"zhangniang"}
+2025-10-10T11:35:52.239+08:00  INFO 5052 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2025-10-10T11:35:52.239+08:00  INFO 5052 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-service.properties+DEFAULT_GROUP
+2025-10-10T11:35:52.255+08:00  INFO 5052 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-service.properties, group=DEFAULT_GROUP, cnt=1
+2025-10-10T11:35:52.255+08:00  INFO 5052 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=user-service.properties, group=DEFAULT_GROUP
+2025-10-10T11:35:52.255+08:00  INFO 5052 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-service+DEFAULT_GROUP
+2025-10-10T11:35:52.255+08:00  INFO 5052 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-service, group=DEFAULT_GROUP, cnt=1
+2025-10-10T11:35:52.255+08:00  INFO 5052 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=user-service, group=DEFAULT_GROUP
+2025-10-10T11:35:52.835+08:00 ERROR 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 邮件发送失败,e
+
+org.springframework.mail.MailAuthenticationException: Authentication failed
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:440) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at common.xiaoli.common.utils.Mail.send(Mail.java:44) ~[classes/:na]
+	at com.xiaoli.user.listener.UserQueueListener.handler(UserQueueListener.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-6.0.14.jar:6.0.14]
+	at org.springframework.amqp.rabbit.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-6.0.14.jar:6.0.14]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:75) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:277) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:224) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:149) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1663) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1582) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1570) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1561) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1484) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at io.micrometer.observation.Observation.lambda$observe$0(Observation.java:493) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at io.micrometer.observation.Observation.observeWithContext(Observation.java:603) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at io.micrometer.observation.Observation.observe(Observation.java:492) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1484) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:994) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:941) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1323) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1225) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: jakarta.mail.AuthenticationFailedException: 530 Login fail. A secure connection is requiered(such as ssl). More information at https://help.mail.qq.com/detail/0/1010
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:979) ~[jakarta.mail-1.1.0.jar:na]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:890) ~[jakarta.mail-1.1.0.jar:na]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:794) ~[jakarta.mail-1.1.0.jar:na]
+	at jakarta.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.1.0.jar:na]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-6.0.14.jar:6.0.14]
+	... 30 common frames omitted
+
+2025-10-10T11:35:52.844+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 收到用户信息，body{"email":"3346036050@qq.com","githubUrl":"https://gitee.com/petty-thiefFFF/clanguage.git","id":8,"password":"","userName":"test"}
+2025-10-10T11:35:53.052+08:00  WARN 5052 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-10T11:35:53.053+08:00  WARN 5052 --- [Thread-7] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-10T11:35:53.053+08:00  WARN 5052 --- [Thread-7] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-10T11:35:53.053+08:00  WARN 5052 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-10T11:35:53.098+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-10-10T11:35:53.144+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-10-10T11:35:53.160+08:00 ERROR 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 邮件发送失败,e
+
+org.springframework.mail.MailAuthenticationException: Authentication failed
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:440) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:361) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:356) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at common.xiaoli.common.utils.Mail.send(Mail.java:44) ~[classes/:na]
+	at com.xiaoli.user.listener.UserQueueListener.handler(UserQueueListener.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-6.0.14.jar:6.0.14]
+	at org.springframework.amqp.rabbit.listener.adapter.KotlinAwareInvocableHandlerMethod.doInvoke(KotlinAwareInvocableHandlerMethod.java:45) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-6.0.14.jar:6.0.14]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:75) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:277) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:224) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:149) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1663) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1582) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1570) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1561) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListenerAndHandleException(AbstractMessageListenerContainer.java:1506) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.lambda$executeListener$8(AbstractMessageListenerContainer.java:1484) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at io.micrometer.observation.Observation.lambda$observe$0(Observation.java:493) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at io.micrometer.observation.Observation.observeWithContext(Observation.java:603) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at io.micrometer.observation.Observation.observe(Observation.java:492) ~[micrometer-observation-1.11.6.jar:1.11.6]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1484) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:994) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:941) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1323) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1225) ~[spring-rabbit-3.0.10.jar:3.0.10]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: jakarta.mail.AuthenticationFailedException: 530 Login fail. A secure connection is requiered(such as ssl). More information at https://help.mail.qq.com/detail/0/1010
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:979) ~[jakarta.mail-1.1.0.jar:na]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:890) ~[jakarta.mail-1.1.0.jar:na]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:794) ~[jakarta.mail-1.1.0.jar:na]
+	at jakarta.mail.Service.connect(Service.java:342) ~[jakarta.mail-1.1.0.jar:na]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518) ~[spring-context-support-6.0.14.jar:6.0.14]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437) ~[spring-context-support-6.0.14.jar:6.0.14]
+	... 30 common frames omitted
+
+2025-10-10T11:35:53.184+08:00  WARN 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'[B@482456a8(byte[135])' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=true, receivedExchange=user.exchange, receivedRoutingKey=, deliveryTag=3, consumerTag=amq.ctag-UWTchF-STNJZHg_hiyQRGg, consumerQueue=user.queue])
+2025-10-10T11:35:53.245+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-10-10T11:35:54.068+08:00  INFO 5052 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-10-10T11:37:52.180+08:00  WARN 29388 --- [main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-10T11:37:52.195+08:00  INFO 29388 --- [main] c.a.n.c.c.impl.LocalConfigInfoProcessor  : LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-10-10T11:37:52.195+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0
+2025-10-10T11:37:52.219+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$798/0x0000026d243f58c8
+2025-10-10T11:37:52.219+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$799/0x0000026d243f5ce8
+2025-10-10T11:37:52.226+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-10-10T11:37:52.226+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-10-10T11:37:52.233+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-10-10T11:37:52.256+08:00  INFO 29388 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-10-10T11:37:53.127+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1760067472926_127.0.0.1_50073
+2025-10-10T11:37:53.128+08:00  INFO 29388 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Notify connected event to listeners.
+2025-10-10T11:37:53.128+08:00  INFO 29388 --- [com.alibaba.nacos.client.remote.worker] c.a.n.client.config.impl.ClientWorker    : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Connected,notify listen context...
+2025-10-10T11:37:53.128+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-10-10T11:37:53.128+08:00  INFO 29388 --- [main] com.alibaba.nacos.common.remote.client   : [5f7c2578-0758-4e8d-964f-0225b3a20df8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$820/0x0000026d2453d1f0
+2025-10-10T11:37:53.150+08:00  INFO 29388 --- [main] c.a.nacos.client.config.impl.Limiter     : limitTime:5.0
+2025-10-10T11:37:53.165+08:00  WARN 29388 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[user-service] & group[DEFAULT_GROUP]
+2025-10-10T11:37:53.168+08:00  WARN 29388 --- [main] c.a.c.n.c.NacosPropertySourceBuilder     : Ignore the empty nacos configuration and get it based on dataId[user-service.properties] & group[DEFAULT_GROUP]
+2025-10-10T11:37:53.173+08:00  INFO 29388 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-user-service.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-user-service,DEFAULT_GROUP'}]
+2025-10-10T11:37:53.189+08:00  WARN 29388 --- [main] c.a.nacos.client.logging.NacosLogging    : Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-10-10T11:37:53.189+08:00  INFO 29388 --- [main] com.xiaoli.user.MailTest                 : No active profile set, falling back to 1 default profile: "default"
+2025-10-10T11:37:53.786+08:00  INFO 29388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-10-10T11:37:53.786+08:00  INFO 29388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-10-10T11:37:53.817+08:00  INFO 29388 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-10-10T11:37:54.051+08:00  INFO 29388 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=caa58da5-782a-3cde-a760-a572c3df3fb2
+2025-10-10T11:37:54.886+08:00  INFO 29388 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'blog-service' URL not provided. Will try picking an instance via load-balancing.
+2025-10-10T11:37:57.236+08:00  WARN 29388 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-10T11:37:57.284+08:00  INFO 29388 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [47.105.69.137:5672]
+2025-10-10T11:37:58.275+08:00  INFO 29388 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#744f0e0b:0/SimpleConnection@2a15bbf3 [delegate=amqp://xiaoli@47.105.69.137:5672/blog, localPort=50082]
+2025-10-10T11:37:59.145+08:00  INFO 29388 --- [main] com.xiaoli.user.MailTest                 : Started MailTest in 8.175 seconds (process running for 9.126)
+2025-10-10T11:37:59.147+08:00  INFO 29388 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2025-10-10T11:37:59.147+08:00  INFO 29388 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-service.properties+DEFAULT_GROUP
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 收到用户信息，body{"email":"1138358816@qq.com","githubUrl":"https://gitee.com/petty-thiefFFF/clanguage.git","id":7,"password":"","userName":"zhangniang"}
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-service.properties, group=DEFAULT_GROUP, cnt=1
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=user-service.properties, group=DEFAULT_GROUP
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-service+DEFAULT_GROUP
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-service, group=DEFAULT_GROUP, cnt=1
+2025-10-10T11:37:59.152+08:00  INFO 29388 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=user-service, group=DEFAULT_GROUP
+2025-10-10T11:38:03.893+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.x.user.listener.UserQueueListener      : 收到用户信息，body{"email":"3346036050@qq.com","githubUrl":"https://gitee.com/petty-thiefFFF/clanguage.git","id":8,"password":"","userName":"test"}
+2025-10-10T11:38:04.557+08:00  WARN 29388 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-10-10T11:38:04.557+08:00  WARN 29388 --- [Thread-7] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-10-10T11:38:04.563+08:00  WARN 29388 --- [Thread-7] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-10-10T11:38:04.563+08:00  WARN 29388 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-10-10T11:38:04.640+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-10-10T11:38:05.034+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-10-10T11:38:05.404+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-10-10T11:38:06.223+08:00  INFO 29388 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.

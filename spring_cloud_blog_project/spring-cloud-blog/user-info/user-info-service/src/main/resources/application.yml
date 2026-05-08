@@ -1,0 +1,58 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.219.33.221:8848
+  data:
+    redis:
+#     这里面是云服务器的地址⬇️
+      host: 47.105.69.137
+      port: 6379
+      timeout: 60s #连接空闲超过N(s秒、ms毫秒)后关闭，0为禁用，这里配置值和tcp-keepalive值一致
+      lettuce:
+        pool:
+          max-active: 8 #允许最大连接数
+          max-idle: 8 #最大空闲连接数，默认8
+          min-idle: 0 #最小空闲连接数
+          max-wait: 5s #请求获取连接等待时间
+# rabbitmq的配置⬇️
+  rabbitmq:
+    addresses: amqp://xiaoli:123456@47.105.69.137:5672/blog
+    listener:
+      simple:
+#       进行手动确认~~
+        acknowledge-mode: manual
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_user?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtp.qq.com  # 需要在设置中开启 smtp
+    username: 3099592185@qq.com  # 发件人的邮箱
+    password: nxothnwahooqdhad # 邮箱的授权码，并非个人密码
+    default-encoding: UTF-8  # 字符集编码，默认 UTF-8
+# mail.smtp.auth  设置为true 表示需要进行smtp身份验证
+# mail.smtp.starttls.enable  设置为false   TLS通常用于在不安全的网络上创建安全连接，但在使用SSL时，TLS通常不必要
+# mail.smtp.ssl.enable 设置为true 表示启用SSL协议~~
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: false
+          ssl:
+            enable: true
+      personal: "肥波博客社区"
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  file:
+    name: user.log

@@ -1,0 +1,4 @@
+# Project exclude paths
+/product-api/target/
+# Project exclude paths
+/gateway/target/
