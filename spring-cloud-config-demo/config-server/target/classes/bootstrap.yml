@@ -1,0 +1,15 @@
+##对称加密
+#encrypt:
+#key: xiaoli
+
+
+
+
+#非对称加密
+# 非对称加密配置
+encrypt:
+  key-store:
+    location: config-server.keystore
+    alias: config-server
+    password: config
+    secret: config

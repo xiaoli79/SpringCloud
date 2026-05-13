@@ -1,0 +1,38 @@
+
+#如果配置文件出现两个配置文件
+#优先级最高的是spring:profiles:active:dev
+#其次是spring:cloud:config:profile:prod
+spring:
+  profiles:
+    active: prod
+  application:
+    name: product-service
+
+
+#多平台配置
+#---代表多文档分隔符
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:7071
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:7071
+
+
+
+
