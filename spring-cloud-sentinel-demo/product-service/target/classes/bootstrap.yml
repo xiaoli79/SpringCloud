@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+#        namespace: 8a61ef37-2daa-402f-8b1d-5363629c5c87   #配置中心的命名空间
