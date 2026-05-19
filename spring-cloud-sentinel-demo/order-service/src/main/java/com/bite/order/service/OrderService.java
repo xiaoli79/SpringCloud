@@ -19,6 +19,7 @@ public class OrderService {
     @Autowired
     private ProductApi productApi;
 
+    @SentinelResource("selectOrderById")
     public OrderInfo selectOrderById(Integer orderId){
         OrderInfo orderInfo = orderMapper.selectOrderById(orderId);
 //        String url = "http://product-service/product/"+orderInfo.getProductId();

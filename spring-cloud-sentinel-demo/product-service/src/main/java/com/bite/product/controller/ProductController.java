@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 @Slf4j
 @RequestMapping("/product")
 @RestController
@@ -17,9 +19,22 @@ public class ProductController {
     private ProductService productService;
 
     @RequestMapping("/{productId}")
-    public ProductInfo getProductById(@PathVariable("productId") Integer productId){
+    public ProductInfo getProductById(@PathVariable("productId") Integer productId) throws InterruptedException {
         log.info("接收参数, productId:"+productId);
-        return productService.selectProductById(productId);
+//        long time = new Random().nextInt(20)+50;
+//        Thread.sleep(time);
+//        return productService.selectProductById(productId);
+
+
+
+        if(productId == 1001){
+            Thread.sleep(60);
+            return productService.selectProductById(productId);
+        }else if(productId == 1002){
+            throw new RuntimeException("运行时异常");
+        }else{
+            return productService.selectProductById(productId);
+        }
     }
     @RequestMapping("/p1")
     public String p1(Integer id){

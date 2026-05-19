@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "product-service",path = "/product")
+@FeignClient(value = "product-service",path = "/product",fallbackFactory = ProductFallBackFactory.class)
 public interface ProductApi {
     @RequestMapping("/{productId}")
     ProductInfo getProductInfo(@PathVariable("productId") Integer productId);

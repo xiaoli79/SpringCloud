@@ -29,3 +29,7 @@ logging:
   pattern:
     console: '%d{HH:mm:ss.SSS} %c %M %L [%thread] %m%n'
     file: '%d{HH:mm:ss.SSS} %c %M %L [%thread] %m%n'
+
+feign:
+  sentinel:
+    enabled: true
